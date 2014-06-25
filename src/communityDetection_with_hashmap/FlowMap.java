@@ -20,7 +20,7 @@ public class FlowMap {
 				flow = new HashMap<Integer, Float>();
 			}
 			
-			float amount = flowColor;
+			float amount = flowVolume;
 			if (flow.containsKey(flowColor))
 				amount += flow.get(flowColor);
 			
